@@ -17,7 +17,7 @@ export default function FrameImage({ src, alt, eager = false }: Props) {
   return (
     <img
       className="frame-img"
-      src={encodeURI(src)}
+      src={encodeURI(src.replace(/.png$/i, ".webp"))}
       alt={alt}
       draggable={false}
       loading={eager ? "eager" : "lazy"}

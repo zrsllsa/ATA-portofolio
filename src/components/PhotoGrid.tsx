@@ -1,5 +1,5 @@
 import { useLayoutEffect, useMemo, useState, type CSSProperties } from "react";
-import { site, type Photo } from "../data/site.ts";
+import { type Photo } from "../data/site.ts";
 import FrameImage from "./FrameImage.tsx";
 import ScrollReveal from "./ScrollReveal.tsx";
 
@@ -67,19 +67,14 @@ export default function PhotoGrid({ photos, showCaption = false }: Props) {
             >
               <ScrollReveal delay={(item.index % 3) * 70}>
                 {showCaption ? (
-                  <a
-                    className="photo-tile has-caption"
-                    href={site.instagramUrl}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
+                  <article className="photo-tile has-caption">
                     <FrameImage
                       src={item.photo.src}
                       alt={item.photo.caption}
                       eager={item.index < 9}
                     />
                     <p className="photo-caption">{item.photo.caption}</p>
-                  </a>
+                  </article>
                 ) : (
                   <article className="photo-tile">
                     <FrameImage src={item.photo.src} alt="" eager={item.index < 9} />

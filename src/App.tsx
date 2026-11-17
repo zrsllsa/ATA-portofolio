@@ -1,3 +1,4 @@
+import Lenis from "lenis";
 import { useEffect } from "react";
 import { BrowserRouter, Navigate, Route, Routes, useLocation } from "react-router-dom";
 import Footer from "./components/Footer.tsx";
@@ -19,9 +20,26 @@ function ScrollToTop() {
   return null;
 }
 
+function SmoothScroll() {
+  useEffect(() => {
+    const lenis = new Lenis();
+    let id = requestAnimationFrame(function raf(t) {
+      lenis.raf(t);
+      id = requestAnimationFrame(raf);
+    });
+    return () => {
+      cancelAnimationFrame(id);
+      lenis.destroy();
+    };
+  }, []);
+
+  return null;
+}
+
 export default function App() {
   return (
     <BrowserRouter>
+      <SmoothScroll />
       <ScrollToTop />
       <Navbar />
       <Routes>

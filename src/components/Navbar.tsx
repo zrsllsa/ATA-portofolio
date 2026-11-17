@@ -65,7 +65,7 @@ export default function Navbar() {
             aria-haspopup="true"
             onClick={() => setEventOpen((value) => !value)}
           >
-            Event
+            Picture
           </button>
           <div className="nav-submenu">
             {eventLinks.map((link) => (
