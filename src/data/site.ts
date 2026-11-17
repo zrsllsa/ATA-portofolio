@@ -32,7 +32,7 @@ export const backgrounds = {
 };
 
 export const video = {
-  src: "/images/vidio/vidio.mp4",
+  src: "/images/vidio/vidio-web.mp4",
   caption: "Some Showreels of the visual storytelling i did in the past few year",
 };
 
