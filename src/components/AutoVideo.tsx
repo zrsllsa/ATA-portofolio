@@ -10,6 +10,7 @@ export default function AutoVideo({ className = "auto-video" }: Props) {
       className={className}
       src={encodeURI(video.src)}
       autoPlay
+      preload="auto"
       muted
       loop
       playsInline

@@ -14,7 +14,7 @@ export type Photo = {
 
 export const site = {
   name: "M Abdus Sattar",
-  logo: "/images/contact/contact.png",
+  logo: "/images/contact/contact.webp",
   instagram: "@attar.jpg",
   instagramUrl: "https://www.instagram.com/attar.jpg/",
   email: "muhammadattar358@gmail.com",

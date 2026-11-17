@@ -3,6 +3,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Lenis from "lenis";
 import { useEffect } from "react";
 import { BrowserRouter, Navigate, Route, Routes, useLocation } from "react-router-dom";
+import { backgrounds, site } from "./data/site.ts";
 import Footer from "./components/Footer.tsx";
 import Navbar from "./components/Navbar.tsx";
 import Contact from "./pages/contact.tsx";
@@ -11,6 +12,11 @@ import Home from "./pages/home.tsx";
 import MovingPicturePage from "./pages/movingpicture.tsx";
 import Music from "./pages/music.tsx";
 import People from "./pages/people.tsx";
+
+// preload semua background + portrait supaya pindah halaman tidak menunggu download
+for (const src of [...Object.values(backgrounds), site.logo]) {
+  new Image().src = encodeURI(src.replace(/\.png$/i, ".webp"));
+}
 
 function ScrollToTop() {
   const { pathname } = useLocation();

@@ -553,7 +553,7 @@ a {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  padding: calc(var(--nav-h) + 24px) var(--page-gutter) calc(var(--footer-h) + 28px);
+  padding: calc(var(--nav-h) + 24px) var(--page-gutter);
 }
 
 .moving-stage {
