@@ -650,16 +650,7 @@ a {
 }
 
 .reveal {
-  opacity: 0;
-  transform: translateY(52px);
-  transition:
-    opacity 0.85s var(--ease),
-    transform 0.85s var(--ease);
-}
-
-.reveal.is-visible {
-  opacity: 1;
-  transform: none;
+  opacity: 0; /* dianimasikan GSAP di ScrollReveal */
 }
 
 @media (min-width: 901px) {

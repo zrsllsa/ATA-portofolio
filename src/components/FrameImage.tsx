@@ -20,7 +20,8 @@ export default function FrameImage({ src, alt, eager = false }: Props) {
       src={encodeURI(src.replace(/.png$/i, ".webp"))}
       alt={alt}
       draggable={false}
-      loading={eager ? "eager" : "lazy"}
+      loading="eager"
+      fetchPriority={eager ? "high" : "auto"}
       decoding="async"
       onError={() => setFailed(true)}
     />

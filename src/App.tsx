@@ -1,3 +1,5 @@
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Lenis from "lenis";
 import { useEffect } from "react";
 import { BrowserRouter, Navigate, Route, Routes, useLocation } from "react-router-dom";
@@ -23,12 +25,12 @@ function ScrollToTop() {
 function SmoothScroll() {
   useEffect(() => {
     const lenis = new Lenis();
-    let id = requestAnimationFrame(function raf(t) {
-      lenis.raf(t);
-      id = requestAnimationFrame(raf);
-    });
+    lenis.on("scroll", ScrollTrigger.update);
+    const tick = (time: number) => lenis.raf(time * 1000);
+    gsap.ticker.add(tick);
+    gsap.ticker.lagSmoothing(0);
     return () => {
-      cancelAnimationFrame(id);
+      gsap.ticker.remove(tick);
       lenis.destroy();
     };
   }, []);
