@@ -61,9 +61,10 @@ export const homePhotos: Photo[] = [
   { src: "/images/homepage/Rectangle 12.png", caption: "BROKENSCENE\nPHOTOSHOOT", ratio: 0.75 },
   { src: "/images/homepage/Rectangle 22.png", caption: "PHOTOSHOOT\nMERCH MPKMB 63", ratio: 0.75 },
   { src: "/images/homepage/Rectangle 24.png", caption: "BRI IN PESTAPORA\nWITH REZA CHANDIKA", ratio: 0.75 },
-  { src: "/images/homepage/gradu1.jpg", caption: "GRADUATION\nPHOTOSHOOT", ratio: 0.75 },
+  { src: "/images/homepage/gradu1.jpg", caption: "GRADUATION\nPHOTOSHOOT", ratio: 0.8 },
   { src: "/images/homepage/Rectangle 26.png", caption: "HINDIA IN\nMENDADAK FESTIVAL 2025", ratio: 1.333333 },
   { src: "/images/homepage/Rectangle 27.png", caption: "NONA ALBUM\nLAUNCH PARTY", ratio: 1.333333 },
+  { src: "/images/homepage/atar1.jpg", caption: "GABRIELLA FERNALDI & DE ROBINSAR\nIN HEJO SQUARE KOTA PARAYAHNGAN", ratio: 0.8 },
 ];
 
 // Kartu Attar Visual Photo Gallery di home (bisa diklik)
