@@ -308,6 +308,10 @@ a {
   min-width: 0;
 }
 
+.photo-row {
+  justify-content: center;
+}
+
 .photo-cell {
   flex: var(--fr, 1) 1 0%;
   min-width: 0;
@@ -735,5 +739,23 @@ a {
     transition: none;
     transform: none;
     opacity: 1;
+  }
+}
+
+/* background contact & moving picture: tanpa lapisan gelap, video/foto opacity penuh */
+.contact-page .page-bg-veil,
+.moving-page .page-bg-veil {
+  display: none;
+}
+
+.page-video,
+.contact-portrait {
+  opacity: 1;
+}
+
+/* 1 kolom: semua foto selebar penuh dan di tengah */
+@media (max-width: 639px) {
+  .photo-cell {
+    flex: 1 1 100%;
   }
 }

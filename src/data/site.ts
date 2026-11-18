@@ -43,7 +43,7 @@ export const homeIntro = {
 };
 
 export const portfolioIntro = {
-  lead: "This is my Portofolio of what i did from this past year, i did many thing from design and make some visual storytelling narative in a form of film, campaign, ads and documentaion.",
+  lead: "This is my Portofolio of what i did from this past year, i did many thing from design and make some visual storytelling narative in a form of film, campaign, ads and documentation.",
   collab:
     "also the most importantly i been photographing many thing from people, music and collaborating with Magnolia Celebration, SOREZEBAND, IPB MERCH, Raffita Cake, Mendadak Festival, Brokenscene, SV IPB FESTIVAL BUDAYA NUSANTARA, ACRA, BPJS, BRI, Barasuara Jakarta fanbase, AGSN MPKMB IPB 63, 2026, BONTEH, Kanisius Health Expo 2026, BPK wilayah 7, Festival budaya nasional 2026",
 };
@@ -55,13 +55,13 @@ export const homePhotos: Photo[] = [
   { src: "/images/homepage/Rectangle 4.png", caption: "SV IPB\nFESTIVAL BUDAYA NUSANTARA 16", ratio: 1.351528 },
   { src: "/images/homepage/Rectangle 5.png", caption: "PHOTOSHOOT\nIPB MERCH 2025", ratio: 0.75 },
   { src: "/images/homepage/Rectangle 6.png", caption: "PRE-GRADUATE\nPHOTOSHOOT", ratio: 0.75 },
-  { src: "/images/homepage/Rectangle 7.png", caption: "AGNY SYMPHONY 2026", ratio: 1.333333 },
+  { src: "/images/homepage/Rectangle 7.png", caption: "AGRYSYMPHONY 2026", ratio: 1.333333 },
   { src: "/images/homepage/Rectangle 10.png", caption: "PERUNGGU IN\nACRA IPB 2025", ratio: 0.75 },
   { src: "/images/homepage/Rectangle 11.png", caption: "BARASUARA IN\nGRAB IT FEST 2026", ratio: 0.75 },
   { src: "/images/homepage/Rectangle 12.png", caption: "BROKENSCENE\nPHOTOSHOOT", ratio: 0.75 },
   { src: "/images/homepage/Rectangle 22.png", caption: "PHOTOSHOOT\nMERCH MPKMB 63", ratio: 0.75 },
   { src: "/images/homepage/Rectangle 24.png", caption: "BRI IN PESTAPORA\nWITH REZA CHANDIKA", ratio: 0.75 },
-  { src: "/images/homepage/Rectangle 25.png", caption: "GRADUATION\nPHOTOSHOOT", ratio: 0.75 },
+  { src: "/images/homepage/gradu1.jpg", caption: "GRADUATION\nPHOTOSHOOT", ratio: 0.75 },
   { src: "/images/homepage/Rectangle 26.png", caption: "HINDIA IN\nMENDADAK FESTIVAL 2025", ratio: 1.333333 },
   { src: "/images/homepage/Rectangle 27.png", caption: "NONA ALBUM\nLAUNCH PARTY", ratio: 1.333333 },
 ];
@@ -157,4 +157,6 @@ export const everythingPhotos: Photo[] = [
   { src: "/images/attarvisualphotogallery/everything/IMG_20241217_013912_362 1.png", caption: "", ratio: 0.749296 },
   { src: "/images/attarvisualphotogallery/everything/PXL_20260113_040006353 1.png", caption: "", ratio: 0.562801 },
   { src: "/images/attarvisualphotogallery/everything/PXL_20260116_031701369~2 1.png", caption: "", ratio: 0.75 },
+  { src: "/images/attarvisualphotogallery/everything/everything1.jpg", caption: "", ratio: 1.274738 },
+  { src: "/images/attarvisualphotogallery/everything/everything2.jpg", caption: "", ratio: 0.8 },
 ];
