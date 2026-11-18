@@ -759,3 +759,11 @@ a {
     flex: 1 1 100%;
   }
 }
+
+/* konten harus di atas background fixed (z-index 0), kalau tidak video/foto tertimpa & terlihat transparan */
+.inner-main,
+.moving-main,
+.contact-main {
+  position: relative;
+  z-index: 1;
+}
