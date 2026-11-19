@@ -19,7 +19,7 @@ export const site = {
   instagramUrl: "https://www.instagram.com/attar.jpg/",
   email: "muhammadattar358@gmail.com",
   phone: "+62-897265-8411",
-  phoneUrl: "tel:+628972658411",
+  phoneUrl: "https://wa.me/628972658411",
 };
 
 export const backgrounds = {

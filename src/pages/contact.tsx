@@ -22,7 +22,7 @@ export default function Contact() {
             <MailIcon />
             {site.email}
           </a>
-          <a href={site.phoneUrl}>
+          <a href={site.phoneUrl} target="_blank" rel="noreferrer">
             <PhoneIcon />
             {site.phone}
           </a>
