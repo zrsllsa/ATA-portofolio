@@ -3,7 +3,7 @@ import { site } from "../data/site.ts";
 export default function Footer() {
   return (
     <footer className="site-footer">
-      <span>© ATTAR.CO</span>
+      <span>COPYRIGHT</span>
       <span className="footer-rule" aria-hidden="true">
         |
       </span>
