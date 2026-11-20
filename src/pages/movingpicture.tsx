@@ -1,4 +1,3 @@
-import AutoVideo from "../components/AutoVideo.tsx";
 import PageBackground from "../components/PageBackground.tsx";
 import { backgrounds, video } from "../data/site.ts";
 
@@ -9,7 +8,13 @@ export default function MovingPicturePage() {
       <main className="moving-main">
         <h1 className="sr-only">Moving Picture</h1>
           <div className="moving-stage">
-            <AutoVideo className="page-video" />
+            <iframe
+              className="page-video"
+              src={video.embed}
+              title="Showreel"
+              allow="autoplay; fullscreen"
+              allowFullScreen
+            />
             <p className="moving-caption">{video.caption}</p>
           </div>
       </main>

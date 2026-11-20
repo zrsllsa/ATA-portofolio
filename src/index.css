@@ -767,3 +767,7 @@ a {
   position: relative;
   z-index: 1;
 }
+
+iframe.page-video {
+  border: 0;
+}
