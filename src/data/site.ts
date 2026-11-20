@@ -60,7 +60,7 @@ export const homePhotos: Photo[] = [
   { src: "/images/homepage/Rectangle 11.png", caption: "BARASUARA IN\nGRAB IT FEST 2026", ratio: 0.75 },
   { src: "/images/homepage/Rectangle 12.png", caption: "BROKENSCENE\nPHOTOSHOOT", ratio: 0.75 },
   { src: "/images/homepage/Rectangle 22.png", caption: "PHOTOSHOOT\nMERCH MPKMB 63", ratio: 0.75 },
-  { src: "/images/homepage/Rectangle 24.png", caption: "A KARYATERA PRODUCTION", ratio: 0.75 },
+  { src: "/images/homepage/Rectangle 24.png", caption: "A KARYATERA\nPRODUCTION", ratio: 0.75 },
   { src: "/images/homepage/gradu1.jpg", caption: "GRADUATION\nPHOTOSHOOT", ratio: 0.8 },
   { src: "/images/homepage/Rectangle 26.png", caption: "HINDIA IN\nMENDADAK FESTIVAL 2025", ratio: 1.333333 },
   { src: "/images/homepage/Rectangle 27.png", caption: "NONA ALBUM\nLAUNCH PARTY", ratio: 1.333333 },
