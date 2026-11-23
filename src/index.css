@@ -561,7 +561,7 @@ a {
 }
 
 .moving-stage {
-  width: min(720px, 100%);
+  width: min(1100px, 100%);
 }
 
 .moving-caption {

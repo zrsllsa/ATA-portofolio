@@ -1,6 +1,5 @@
 import { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
-import AutoVideo from "../components/AutoVideo.tsx";
 import FrameImage from "../components/FrameImage.tsx";
 import PhotoGrid from "../components/PhotoGrid.tsx";
 import ScrollReveal from "../components/ScrollReveal.tsx";
@@ -10,6 +9,7 @@ import {
   homeIntro,
   homePhotos,
   portfolioIntro,
+  video,
 } from "../data/site.ts";
 
 function Hero() {
@@ -118,9 +118,15 @@ export default function Home() {
             </Link>
           </ScrollReveal>
           <ScrollReveal delay={80}>
-            <Link to="/movingpicture" className="moving-frame">
-              <AutoVideo />
-            </Link>
+            <div className="moving-frame">
+              <iframe
+                className="page-video"
+                src={video.embed}
+                title="Showreel"
+                allow="autoplay; fullscreen"
+                allowFullScreen
+              />
+            </div>
           </ScrollReveal>
         </section>
       </main>

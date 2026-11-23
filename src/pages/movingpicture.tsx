@@ -15,7 +15,6 @@ export default function MovingPicturePage() {
               allow="autoplay; fullscreen"
               allowFullScreen
             />
-            <p className="moving-caption">{video.caption}</p>
           </div>
       </main>
     </div>

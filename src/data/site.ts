@@ -35,7 +35,6 @@ export const video = {
   src: "/images/vidio/vidio-web.mp4",
   // video halaman Moving Picture di-embed dari Google Drive (file harus di-share "Anyone with the link")
   embed: "https://drive.google.com/file/d/1ZEw68BOMLeLyFpEkTgUIyToTVv1fqKTt/preview",
-  caption: "Some Showreels of the visual storytelling i did in the past few year",
 };
 
 export const homeIntro = {
