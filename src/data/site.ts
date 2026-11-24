@@ -32,9 +32,7 @@ export const backgrounds = {
 };
 
 export const video = {
-  src: "/images/vidio/vidio-web.mp4",
-  // video halaman Moving Picture di-embed dari Google Drive (file harus di-share "Anyone with the link")
-  embed: "https://drive.google.com/file/d/1ZEw68BOMLeLyFpEkTgUIyToTVv1fqKTt/preview",
+  src: "/images/vidio/showreel.mp4",
 };
 
 export const homeIntro = {
